@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h1 {
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+}
+
+h1:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+hr {
+  border: 1px solid;
+  border-color: hsl(215, 32%, 27%);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+a:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.hidden {
+  display: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  display: none;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 3%;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+  color: hsl(215, 51%, 70%);
+}
+
+.nft-div {
+  position: relative;
+  display: inline-block;
+}
+
+.nft-div:hover:after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 4px;
+  width: 100%;
+  background: url("images/icon-view.svg") center no-repeat;
+  opacity: 30%;
+  background-color: hsl(178, 100%, 50%);
+  border-radius: 10px;
+}
+
+.nft {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.price-and-day {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.signature {
+  display: flex;
+  align-items: center;
+  gap: 10%;
+  font-weight: 300;
+}
+
+.signature img {
+  width: 10%;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 100%;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.eth {
+  color: hsl(178, 100%, 50%);
+}
+
+.text {
+  color: hsl(215, 51%, 70%);
+}
